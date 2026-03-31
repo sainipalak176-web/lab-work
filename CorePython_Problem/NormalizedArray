@@ -1,0 +1,10 @@
+import numpy as np
+
+# Input array
+arr = np.array([10, 20, 30, 40, 50])
+
+# Normalize
+normalized_arr = (arr - np.min(arr)) / (np.max(arr) - np.min(arr))
+
+# Output
+print("Normalized Array:", normalized_arr)
